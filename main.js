@@ -10,8 +10,8 @@ let win;
 
 function createWindow() {
   win = new BrowserWindow({
-    width: 1450,
-    height: 1780,
+    width: 2450,
+    height: 2780,
     icon: path.join(__dirname, 'icon.png'),
     webPreferences: {
       nodeIntegration: true
